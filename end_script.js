@@ -11,5 +11,5 @@ document.getElementById("name").appendChild(node);
 //button to return to home page
 var home= document.getElementById("home");
 home.addEventListener("click", function(){
-    location.replace("../index.html");
+    location.replace("index.html");
 });

@@ -33,12 +33,12 @@ function showSlides(n){
 var firstButton = document.getElementById("button1");
 
 firstButton.addEventListener("click", function(){
-    location.replace("Sign Up/First/first.html");
+    location.replace("first.html");
 });
 
 var secondButton= document.getElementById("button2");
 secondButton.addEventListener("click", function(){
-    location.replace("Sign Up/First/first.html");
+    location.replace("first.html");
 })
 
 var thirdButton= document.getElementsByName("button3")[0];
@@ -55,5 +55,5 @@ thirdButton.addEventListener("click", function(){
     sessionStorage.setItem("email", email.value);
     sessionStorage.setItem("number", number.value);
     
-    location.replace("Sign Up/First/first.html");
+    location.replace("first.html");
 })

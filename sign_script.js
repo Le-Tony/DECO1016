@@ -11,10 +11,10 @@ document.getElementById("number").value = sessionStorage.getItem("number");
 
 //button functionality
 next.addEventListener("click", function(){
-    location.replace("../Second/second.html");
+    location.replace("second.html");
 });
 
 home.addEventListener("click", function(){
-    location.replace("../../index.html");
+    location.replace("index.html");
 });
 
